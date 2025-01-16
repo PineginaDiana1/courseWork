@@ -9,7 +9,7 @@ import java.util.List;
 
 public class RandomUtils {
     private static Faker faker = Faker.instance();
-    public static Fruit[] fruits = new Fruit[20];
+    public static Fruit[] fruits = new Fruit[randomNumber()];
 
 //    Метод по получению рандомного числа
     public static int randomNumber() {
